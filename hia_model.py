@@ -16,6 +16,7 @@ flags.DEFINE_boolean('training', False, 'Training or testing a model')
 flags.DEFINE_string('name', '', 'Model name (used for statistics and model path')
 flags.DEFINE_float('dropout_keep_prob', 0.5, 'Keep prob for embedding dropout')
 flags.DEFINE_float('l2_reg', 0.0002, 'l2 regularization for embeddings')
+# We used stochastic gradient descent with the ADAM update rule and learning rate of 0.001 or 0.0003, with an initial learning rate of 0.001.
 
 model_path = 'models/' + FLAGS.name
 
