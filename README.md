@@ -10,6 +10,9 @@ To train a new model: `python hia_model.py --training=True --name=_model`
 
 To test accuracy: `python hia_model.py --training=False --name=_model --epochs=50 --dropout_keep_prob=80`
 
+##Other 3rd party implementations
+* [python-babi](https://github.com/tifoit/mrc-hia-torch7): Inference Attention Neural Networks for Chinese Reading Comprehension.
+
 ##Contact
 For any problems, please leave a message in the `Github Issues`.
 
