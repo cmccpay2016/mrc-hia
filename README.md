@@ -1,8 +1,10 @@
 # Machine Reading Comprehension - (Hia Model)
 
-Reading comprehension for cloze style tasks is to remove word from an article summary, then read the article and try to infer the missing word. This example works on the CNN news dataset.
+Reading comprehension for cloze style tasks is to remove word from an article summary, then read the article and try to infer the missing word. 
 
-With the same hyperparameters as reported in the paper, Hia Model gave significant improvements over state-of-the-art baselines, especially for Chinese reading comprehension corpora.
+The repository will be updated irregularly (including empirical evaluation on current neural networks on Cloze-style Machine  Reading Comprehension).
+
+With the same hyperparameters as reported in the paper, Our hia Model gave significant improvements over state-of-the-art baselines, especially for Chinese reading comprehension corpora.
 
 To train a new model: `python hia_model.py --training=True --name=_model`
 
